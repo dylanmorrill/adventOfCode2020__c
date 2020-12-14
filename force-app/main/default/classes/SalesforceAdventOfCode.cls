@@ -27,6 +27,22 @@ public class SalesforceAdventOfCode {
                         System.debug(Advent_Day6.theSolve_Part2());
                     }
                 }
+            }when 7{
+                switch on whichSolve{
+                    when 1{
+                        System.debug(Advent_Day7.theSolve_Part1());
+                    }when 2{
+                        System.debug(Advent_Day7.theSolve_Part2());
+                    }
+                }
+            }when 8{
+                switch on whichSolve{
+                    when 1{
+                        System.debug(Advent_Day8.theSolve_Part1());
+                    }when 2{
+                        System.debug(Advent_Day8.theSolve_Part2());
+                    }
+                }
             }    
         }
         

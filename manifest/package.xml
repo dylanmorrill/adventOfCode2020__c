@@ -7,6 +7,8 @@
         <members>Advent_Day4</members>
         <members>Advent_Day5</members>
         <members>Advent_Day6</members>
+        <members>Advent_Day7</members>
+        <members>Advent_Day8</members>
         <members>SalesforceAdventOfCode</members>
         <name>ApexClass</name>
     </types>

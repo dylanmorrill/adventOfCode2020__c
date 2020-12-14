@@ -8,12 +8,12 @@ public class Advent_Day8 {
     public static List<instructionWrapper> instructionList = new List<instructionWrapper>();
     public static Integer sizeOfList;
     public static Integer accumulator = 0;
-    public static Set<Integer> elementsWeAlreadyFlipped = new Set<Integer>();
+    public static List<Integer> elementsWeAlreadyFlipped = new List<Integer>();
     public static Set<Integer> elementsWeHaveSeen = new Set<Integer>();
     public static Boolean flippedThisRound;
     
     public static Integer theSolve_Part2(){
-        
+        System.debug('CPU: ' + Limits.getCpuTime());
         for (String instructString : dayThreeInput){
             instructionList.add(new instructionWrapper(
                 instructString.split(' ')[0],
@@ -28,27 +28,32 @@ public class Advent_Day8 {
         Boolean areWeDoneYet = false;
         
         while (!areWeDoneYet){
-            if (Limits.getCpuTime() > 1000){
-                //areWeDoneYet = true;
+            integer passedNum;
+    
+            if (!elementsWeAlreadyFlipped.isEmpty()){
+                passedNum = elementsWeAlreadyFlipped[elementsWeAlreadyFlipped.size()-1];
+            }else{
+                passedNum = 0;
             }
-     
-            findTheClearPath(0);
+            
+            findTheClearPath(passedNum );
             elementsWeHaveSeen.clear();
             flippedThisRound = false;
-
+            
             if (lalala == 'WE GOT TO THE END!!!'){
                 areWeDoneYet = true;
             }else{
-                accumulator = 0;
+                accumulator = accumRollback;
             }
         }
         
-        System.debug(lalala);
-        system.debug(accumulator);
+
         
-        
+        System.debug('CPU: ' + Limits.getCpuTime());
         return null; 
     }
+    
+    private static Integer accumRollback;
     
     public static string lalala = '';
     
@@ -68,7 +73,7 @@ public class Advent_Day8 {
         
         instructionWrapper instruction = instructionList[elementNum];
         
-        
+
         
         Switch on instruction.instruct{
             
@@ -82,6 +87,7 @@ public class Advent_Day8 {
                     //system.debug(instruction + 'replace!');
                     flippedThisRound = true;
                     elementsWeAlreadyFlipped.add(elementNum);
+                    accumRollback = accumulator;
                     findTheClearPath(elementNum + 1);
                     
                 }else{
@@ -94,6 +100,7 @@ public class Advent_Day8 {
                     //system.debug(instruction + 'replace!');
                     flippedThisRound = true;
                     elementsWeAlreadyFlipped.add(elementNum);
+                    accumRollback = accumulator;
                     findTheClearPath(elementNum + (instruction.num));
                     
                 }else{

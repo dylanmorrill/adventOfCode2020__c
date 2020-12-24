@@ -9,6 +9,7 @@
         <members>Advent_Day6</members>
         <members>Advent_Day7</members>
         <members>Advent_Day8</members>
+        <members>Advent_Day9</members>
         <members>SalesforceAdventOfCode</members>
         <name>ApexClass</name>
     </types>

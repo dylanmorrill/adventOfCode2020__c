@@ -51,7 +51,15 @@ public class SalesforceAdventOfCode {
                         System.debug(Advent_Day9.theSolve_Part2());
                     }
                 }
-            }    
+            }when 10{
+                switch on whichSolve{
+                    when 1{
+                        System.debug(Advent_Day10.theSolve_Part1());
+                    }when 2{
+                        System.debug(Advent_Day10.theSolve_Part2());
+                    }
+                }
+            }      
         }
         
     }

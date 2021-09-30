@@ -7,7 +7,7 @@
 I coded up to week 10, and then got sidetracked with other things.
 
 ## Two important notes
-1. Most of these challenges receive the challange input via static resource I created, and they have a custom parser for in each class. I forgot to include those in this repository, and the sandbox they were created in has since been refreshed. 
+1. Most of these challenges receive the challange input via static resource I created. The classes have a custom parser for that static resource input. I forgot to include those in this repository, and the sandbox they were created in has since been refreshed. 
 2. My code probably became increasingly less-elegant as the challenges go on (weird spacing, debug statements, etc, etc). This code was just for fun, and doesn't represent anything I would ever try to get near a production system.
 
 ## My solutions

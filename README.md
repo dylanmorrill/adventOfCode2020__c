@@ -1,4 +1,4 @@
-![Christmas banner](https://www.stanthonyshs.org/wp-content/uploads/2017/11/Christmas-Banner.png)
+![Christmas banner](https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg)
 
 # Advent of Code 2020 (in Apex)
 

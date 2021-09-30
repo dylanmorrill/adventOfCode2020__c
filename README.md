@@ -8,7 +8,7 @@ I coded up to week 9, and then got sidetracked with other things.
 
 - Week 1
   - [Challlange description](https://adventofcode.com/2020/day/1)
-  - [My code](https://adventofcode.com/)
+  - [My code](https://github.com/dylanmorrill/adventOfCode2020__c/blob/master/force-app/main/default/classes/Advent_Day1.cls)
 - Week 2
   - [Challlange description](https://adventofcode.com/2020/day/2)
   - [My code](https://adventofcode.com/)

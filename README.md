@@ -6,6 +6,12 @@
 
 I coded up to week 10, and then got sidetracked with other things.
 
+## Two important notes
+1. Most of these challenges receive the challange input via static resource I created and have a custom parser for in each class. I forgot to include those in this repository, and the sandbox they were created in has since been refreshed. 
+2. My code probably became increasingly less-elegant as the challenges go on (weird spacing, debug statements, etc, etc). This code was just for fun, and doesn't represent anything I would ever try to get near a production system.
+
+## My solutions
+
 - Week 1
   - [Challlange description](https://adventofcode.com/2020/day/1)
   - [My code](https://github.com/dylanmorrill/adventOfCode2020__c/blob/master/force-app/main/default/classes/Advent_Day1.cls)

@@ -5,7 +5,37 @@
 I coded up to week 11, and then got sidetracked with other things.
 
 - Week 1
-  - Code
-  - stuff
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
 - Week 2
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 3
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 4
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 5
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 6
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 7
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 8
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 9
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 10
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+- Week 11
+  - [Challlange description](https://adventofcode.com/)
+  - [My code](https://adventofcode.com/)
+
 
